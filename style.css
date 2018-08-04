@@ -67,7 +67,34 @@ display: inline-block;
 
 .container {
   width: 100%;
+  background-color: orchid;
   max-width: 960px;
   margin: 0 auto;
   clear: both;
+}
+
+#main-section {
+  width: 100%;
+  max-width: 960px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+body {
+  background-image:  url("images/full-bloom.png");
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+footer {
+  padding: 30px 0;
+  position: fixed;
+  font-size: 12px;
+  color: #fff;
+  color: #ccc;
+  text-align: center;
+  background: #666;
+  border-top: 8px solid #4aaaa5;
+  height: 50px;
 }
