@@ -13,13 +13,15 @@ body {
 
 /* general */
 
-.container {
+.container {  
   width: 100%;
   max-width: 960px;
-  margin: 0 auto;
-  /* clear: both; */
-  /* border: 1px solid gray; */
-  background-color:#4aaaa5;
+  margin: 0 auto; 
+  clear: both; 
+ /* border: 1px solid gray; */
+background-color:#4aaaa5; 
+  /* /* display: flex; */
+  /* flex-direction: column; */
   
  
 
@@ -165,7 +167,7 @@ background-image:  url("images/full-bloom.png");
   max-width: 960px;
   padding: 30px;
   margin: 0 0 40px;
-  background-color: orchid;
+  background-color: #4aaaa5;
   /* border: 1px solid #ddd; */
 }
 
@@ -207,6 +209,22 @@ background-image:  url("images/full-bloom.png");
   opacity: 0.8;
 }
 
+/* h3 .work {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: gray;
+  border-bottom: 0;
+
+} */
+
+
 .work h3 {
   position: absolute;
   bottom: 20px;
@@ -217,7 +235,21 @@ background-image:  url("images/full-bloom.png");
   line-height: 30px;
   color: #fff;
   text-align: center;
-  background: #4aaaa5;
+  background: gray;
+  border-bottom: 0;
+}
+
+#work2 h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: gray;
   border-bottom: 0;
 }
 
